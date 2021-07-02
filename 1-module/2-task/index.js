@@ -13,14 +13,7 @@
  */
  function isValid(name) {
   let regName = /^[А-Яа-яA-Za-z]{4,}$/;
-  if (name == null) {
-  return false;
-  }
-  else if (regName.test(name)){
-    return true;
-  } else {
-    return false;
-  }
+    return name !=null && regName.test(name);
 }
 
 /**
