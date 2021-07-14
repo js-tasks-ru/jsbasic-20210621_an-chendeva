@@ -8,7 +8,7 @@ let salaries = {
 }
 
 function sumSalary(salaries) {
-  sum = 0;
+  let sum = 0;
   for (salary in salaries)
   {
     if (parseInt(salaries[salary])) {
@@ -17,5 +17,3 @@ function sumSalary(salaries) {
   }
   return sum;
 }
-
-sumSalary(salaries);
