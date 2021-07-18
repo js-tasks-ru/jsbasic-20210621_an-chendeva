@@ -4,12 +4,6 @@ let masha = { name: 'Маша', age: 28 };
 
 let users = [ vasya, petya, masha ];
 
-
 function namify(users) {
-  let names = [] ;
-  for (loopvar in users)
-  {
-    names.push(users[loopvar]["name"])
-  }
-  return names;
+  return users.map(item => item.name);
 }
