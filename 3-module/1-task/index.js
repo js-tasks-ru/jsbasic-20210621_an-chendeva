@@ -13,5 +13,3 @@ function namify(users) {
   }
   return names;
 }
-
-let names = namify(users);
